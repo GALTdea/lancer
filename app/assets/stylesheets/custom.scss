@@ -5,6 +5,7 @@ $green: #73C97B;
 $white: #FFFFFF;
 $gray: #6f7171;
 $light-gray: #cfcfcf;
+$almost-white: #efefef;
 
 /*Create classe for each default color*/
 .blue{
@@ -88,5 +89,22 @@ body{
         margin-top: 15px;
       }
     }
+    .job-description{
+      margin-top: 35px;
+      border-style: solid;
+      border-color: $almost-white;
+      border-width: 0 0 1px 0;
+      .job{
+        padding: 10px 0 5px 0;
+        border-style: solid;
+        border-color: $almost-white;
+        border-width: 1px 0 0 0;
+      }
+    }
   }
+}
+
+.menu-footer{
+  padding: 20px 0 10px 30px;
+  color: $white;
 }
