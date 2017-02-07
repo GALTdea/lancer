@@ -1,8 +1,6 @@
 # README
 
-The whole layout is under this branch
-
-Things you may need:
+For each instalation I used a different branch.
 
 * Ruby version
 ** 2.4.0
