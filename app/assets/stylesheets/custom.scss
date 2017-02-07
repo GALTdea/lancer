@@ -43,6 +43,12 @@ body{
       color: $white;
     }
   }
+  .navbar-toggle{
+    background: $white;
+    .icon-bar{
+      background: $blue;
+    }
+  }
   .navbar-nav{
     li{
       a.btn-default{
@@ -61,7 +67,7 @@ body{
     }
   }
   .browse-jobs{
-    margin-left: 100px;
+    margin-left: 25%;
   }
   .btn-default{
     color: $gray;
@@ -73,7 +79,7 @@ body{
 
 .main-content{
   .status{
-    padding: 20px 0 20px 0;
+    padding: 100px 0 20px 0;
   }
   .search{
     input[type="text"]{
