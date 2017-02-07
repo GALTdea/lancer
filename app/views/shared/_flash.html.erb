@@ -1,4 +1,8 @@
-<% if !flash.empty? %>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
-<% end %>
+<div class="flash text-center">
+  <% if flash[:notice] %>
+    <p class="notice bg-green white"><%= notice %></p>
+  <% end %>
+  <% if flash[:alert] %>
+    <p class="alert bg-red white"><%= alert %></p>
+  <% end %>
+</div>

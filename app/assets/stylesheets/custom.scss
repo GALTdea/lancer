@@ -6,6 +6,7 @@ $white: #FFFFFF;
 $gray: #6f7171;
 $light-gray: #cfcfcf;
 $almost-white: #efefef;
+$red: #ff0000;
 
 /*Create classe for each default color*/
 .blue{
@@ -28,11 +29,24 @@ $almost-white: #efefef;
 .bg-orange{
   background: $orange
 }
+.bg-green{
+  background: $green;
+}
+.bg-red{
+  background: $red;
+}
+
 
 /*Custom changes*/
 body{
   font-family: 'Nunito', sans-serif;
   color: $gray;
+}
+.flash{
+  p{
+    margin: 0;
+    padding: 0;
+  }
 }
 .navbar-default{
   font-family: 'Montserrat', sans-serif;
@@ -49,24 +63,7 @@ body{
       background: $blue;
     }
   }
-  .navbar-nav{
-    li{
-      a.btn-default{
-        padding: 6px 12px;
-        &:hover{
-          background-color: #E6E6E6;
-        }
-      }
-      a.btn-warning{
-        padding: 6px 12px;
-        color: $white;
-        &:hover{
-          background-color: #EC971F;
-        }
-      }
-    }
-  }
-  .browse-jobs{
+  .navbar-left{
     margin-left: 25%;
   }
   .btn-default{
@@ -79,7 +76,7 @@ body{
 
 .main-content{
   .status{
-    padding: 100px 0 20px 0;
+    padding: 20px 0 20px 0;
   }
   .search{
     input[type="text"]{
