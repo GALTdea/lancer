@@ -13,5 +13,5 @@ For [Front-End Layout](https://github.com/optticall/lancer/tree/front-end)
  * 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
 ## TODO LIST
-[ ] Change icon-bars colors to white
-[ ] Change mobile buttons to block level
+- [ ] Change icon-bars colors to white
+- [ ] Change mobile buttons to block level
