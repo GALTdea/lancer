@@ -1,24 +1,9 @@
-# README
+# Lancer Job
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+##TODO
+*Change menu buttons on front-end layout for mobile
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##Layout
+*The whole layout is under the front-end branch
