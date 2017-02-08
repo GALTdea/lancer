@@ -21,6 +21,9 @@ $red: #ff0000;
 .white{
   color: $white;
 }
+.light-gray{
+  color: $light-gray;
+}
 
 /*Create classes for default bg colors*/
 .bg-blue{
@@ -37,17 +40,21 @@ $red: #ff0000;
 }
 
 
-/*Custom changes*/
+/*All custom changes, starting to Body*/
 body{
   font-family: 'Nunito', sans-serif;
   color: $gray;
 }
+
+/* Flash message */
 .flash{
   p{
     margin: 0;
     padding: 0;
   }
 }
+
+/* Navbar */
 .navbar-default{
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -64,7 +71,7 @@ body{
     }
   }
   .navbar-left{
-    margin-left: 25%;
+    margin-left: 22%;
   }
   .btn-default{
     color: $gray;
@@ -74,6 +81,7 @@ body{
   }
 }
 
+/* Gig / Jobs Index */
 .main-content{
   .status{
     padding: 20px 0 20px 0;
@@ -124,6 +132,13 @@ body{
   }
 }
 
+/* Gigs New, Create and Form */
+.content-inner-detail{
+  padding-bottom: 35px;
+}
+
+
+/* Footer styles */
 .menu-footer{
   padding: 20px 0 10px 30px;
   color: $white;
